@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lagoona</title>
+    <title>favicon</title>
+    <link rel="shortcut icon" href="img/favicon.svg" type="icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -25,10 +26,6 @@
                 Личный кабинет
               </a>
             </div>
-        </div>
-        <div class="favicon">
-          <img src="img/favicon.svg" alt="favicon">
-          favicon
         </div>
         <nav class="nav header__nav">
             <ul class="list-reset nav__list">
@@ -80,7 +77,7 @@
                           <h3 class="special-offers__title special-offers__title_last">Номера категории люкс</h3>
                           <span class="special-offers__price special-offers__price_last">от 5000 р</span>
                           <span class="special-offers__more">Подробнее</span>
-                    ` </a>
+                      </a>
                   </div>
                 </div>
             </div>
@@ -361,7 +358,7 @@
           <div class="container tour__container">
             <h2 class="title">Хочу тур</h2>
             <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form">
-                <ul class="list-reset">
+                <ul class="list-reset tour__list">
                   <li class="form__item">
                       <p class="form__title">Город вылета</p>
                       <select name="city" class="form__select">
@@ -396,7 +393,7 @@
                   </li>
                   <li class="form__item">
                       <p class="form__title">Туристы</p>
-                      <input type="number" name="number-tourist" required placeholder="2" class="form__input for__number">
+                      <input type="number" name="number-tourist" required placeholder="2" class="form__input form__number">
                   </li>
                 </ul>
                 <button class="btn form__btn btn-reset">Найти</button>
