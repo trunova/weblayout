@@ -1,0 +1,345 @@
+@media (max-width: 1626px) {
+
+  .container {
+      padding: 0 22px;
+  }
+
+  .hero__content {
+      width: 60% ;
+  }
+
+  .hero__title {
+      font-size: 60px;
+      line-height: 60px;
+  }
+
+  .hero__text {
+      margin-bottom: var(--indent);
+  }
+
+  .hero__descr {
+      font-size: 20px;
+  }
+
+
+  .block-img {
+      min-width: 50%;
+  }
+
+  .about-us__item {
+      background-size: 100px 100px;
+      padding: 65px 70px 65px 200px;
+  }
+
+  .list__title {
+      font-size: 20px;
+  }
+
+  .list__text {
+      font-size: 14px;
+      line-height: 24px;
+  }
+
+  .footer__container {
+      padding: var(--indent) 75px;
+  }
+}
+
+
+@media (max-width: 1440px) {
+
+  .container {
+      padding: 0 var(--indent);
+  }
+
+  .logo {
+      margin-right: var(--indent);
+  }
+
+  .nav__item:not(:last-child) {
+      margin-right: var(--indent);
+  }
+
+  .hero__content {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+      width: 86%;
+      top: var(--indent);
+      left: 80px;
+  }
+
+  .hero__text {
+      max-width: 66%;
+      margin-bottom: 0;
+  }
+
+  .hero__title {
+      margin-bottom: 16px;
+      font-weight: 800;
+      font-size: var(--indent);
+      line-height: 60px;
+  }
+
+  .hero__descr {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+  }
+
+  .about-us__content {
+      flex-direction: column;
+  }
+
+  .about-us__descr {
+      margin-bottom: 60px;
+  }
+
+  .block-img {
+      margin-right: 0;
+      margin-bottom: var(--gap);
+  }
+
+  .list__item--top {
+      margin-bottom: var(--gap);
+  }
+
+  .picture {
+      min-width: 437px;
+      width: 437px;
+  }
+
+  .work__content {
+      margin-right: var(--indent);
+  }
+
+  .work__text {
+      margin-bottom: calc(var(--indent) / 2);
+  }
+
+  .footer__text {
+      display: none;
+  }
+
+  .footer__container {
+      padding: var(--indent);
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .header {
+      margin-bottom: 40px;
+  }
+
+  .header__nav {
+      order: -1;
+  }
+
+  .header__container {
+      padding: 26px var(--indent);
+  }
+
+  .logo {
+      margin-right: 0;
+  }
+
+  .header__list {
+      display: none;
+  }
+
+  .nav__menu {
+      display: inline-block;
+  }
+
+  .hero {
+      margin-bottom: 40px;
+  }
+
+  .hero__content {
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: auto;
+      bottom: 60px;
+      left: 127px;
+  }
+
+  .hero__title {
+      font-size: 60px;
+      line-height: 73px;
+  }
+
+  .hero__descr {
+      font-size: 20px;
+  }
+
+  .hero__text {
+      margin-bottom: 60px;
+      max-width: 80%;
+  }
+
+  .about-us__list {
+      max-width: none;
+  }
+
+  .about-us__item {
+      padding-right: 1var(--indent);
+      padding-left: 317px;
+      background-position: center left 77px;
+      background-size: 190px 165px;
+  }
+
+  .list__title {
+      font-size: 24px;
+  }
+
+  .list__text {
+      font-size: 16px;
+      line-height: var(--gap);
+  }
+
+  .block-img {
+      max-width: 924px;
+  }
+
+  .work {
+      margin-bottom: 80px;
+  }
+
+  .accordion {
+      font-size: 20px;
+  }
+
+  .questions {
+      margin-bottom: 80px;
+  }
+
+  .footer__info {
+      margin-right: 130px;
+  }
+
+  .form__btn {
+      padding: 19px 38px;
+  }
+
+}
+
+
+@media (max-width: 992px) {
+
+  .hero__title {
+      font-size: var(--indent);
+      line-height: 61px;
+  }
+
+  .hero__descr {
+      font-size: 18px;
+      line-height: 22px;
+  }
+
+  .hero__pagination {
+      margin-bottom: 0;
+  }
+
+  .block-img__text {
+      margin-right: var(--indent);
+  }
+
+  .about-us__item {
+      padding: 35px 46px 35px 200px;
+      background-size: 114px 99px;
+      background-position: center left 40px;
+  }
+
+  .work__pagination {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .swiper-horizontal>.work__pagination .swiper-pagination-bullets .swiper-pagination-bullet,
+  .work__pagination.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 0;
+  }
+
+  .work__swiper-slide {
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .work__content {
+      margin-right: 0;
+  }
+
+  .work__img {
+      margin-bottom: 38px;
+  }
+
+
+  .picture {
+      width: 80%;
+  }
+
+  .footer__info {
+      margin-right: var(--indent);
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .header__container {
+      padding: 10px var(--indent);
+  }
+
+  .hero__content {
+      left: 50%;
+      margin-left: -38%;
+  }
+
+  .hero__text {
+      max-width: 86%;
+  }
+
+  .block-img__descr {
+      padding: 34px 40px;
+  }
+
+  .block-img__text {
+      margin-right: 47px;
+  }
+
+  .about-us__item {
+      padding: 35px 46px 35px 170px;
+  }
+
+  .work__img {
+      min-width: 100%;
+  }
+
+  .picture {
+      width: 100%;
+  }
+
+  .accordion {
+      padding-right: 90px;
+  }
+
+  .footer__container {
+      flex-direction: column;
+  }
+
+  .footer__nav {
+      display: none;
+  }
+
+  .form {
+      order: -1;
+      margin-bottom: var(--indent);
+  }
+
+  .footer__info {
+      margin-right: 0;
+  }
+}
